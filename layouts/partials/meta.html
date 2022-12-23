@@ -467,6 +467,9 @@ h1, h2, h3, h4, .bold, a {
 .components {
   border: 2px solid #ddd !important;
 }
+.component:last-of-type {
+  border-bottom:0;
+}
     {{ end }}
     </style>
     {{ if .Site.Params.enableCustomHTML }}
